@@ -46,3 +46,8 @@ to log them to syslog.
 
 - If you use iterm2, use "Add trigger" feature of it to highlight/colorize the output as shown in the screenshot above.
 - To filter by process name, just add another grep: `stdbuf -o0 ./klog | grep "caller:" | grep <process_name>`
+
+## Credits
+
+- PARS Defense
+- Justin Sherman for creating xnuspy 
